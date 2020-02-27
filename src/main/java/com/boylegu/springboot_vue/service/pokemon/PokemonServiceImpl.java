@@ -2,6 +2,7 @@ package com.boylegu.springboot_vue.service.pokemon;
 
 import com.boylegu.springboot_vue.dto.PokeBattleDto;
 import com.boylegu.springboot_vue.entities.*;
+import com.boylegu.springboot_vue.repository.MoveRepo;
 import com.boylegu.springboot_vue.repository.PokemonBattleRepo;
 import com.boylegu.springboot_vue.repository.PokemonRepo;
 import com.boylegu.springboot_vue.repository.UserRepo;
@@ -29,6 +30,9 @@ import org.json.simple.parser.JSONParser;
 public class PokemonServiceImpl implements  PokemonService{
     @Autowired
     PokemonRepo pokemonRepo;
+
+    @Autowired
+    MoveRepo moveRepo;
 
     @Autowired
     PokemonBattleRepo pokemonBattleRepo;
@@ -61,6 +65,7 @@ public class PokemonServiceImpl implements  PokemonService{
     @Transactional
     @Override
     public PokemonBattle populatePokemon(PokemonBattle pokemonBattle) throws ParseException, IOException {
+        // fix path
         FileReader reader = new FileReader("C:\\Users\\tyler\\EasyShoppr\\src\\main\\java\\com\\boylegu\\springboot_vue\\service\\pokemon\\pokemon.json");
         JSONParser jsonParser = new JSONParser();
         JSONArray pokemonList = new JSONArray();
@@ -86,6 +91,8 @@ public class PokemonServiceImpl implements  PokemonService{
             JSONObject jsonObject2 = (JSONObject) array.get(index2);
             pokemons2.add(addPokemon(jsonObject2));
         }
+//        pokemonRepo.saveAll(pokemons);
+//        pokemonRepo.saveAll(pokemons2);
         pokemonBattle.setPokemon(pokemons);
         pokemonBattle.setPokemon2(pokemons2);
 
@@ -93,6 +100,7 @@ public class PokemonServiceImpl implements  PokemonService{
     }
 
     @Override
+    @Transactional(readOnly = true)
     public List<Pokemon> getPokemon(UUID id, UUID pId){
         Optional<PokemonBattle> pokemonBattleOptional = pokemonBattleRepo.findOneById(id);
         if(!pokemonBattleOptional.isPresent()){
@@ -111,6 +119,7 @@ public class PokemonServiceImpl implements  PokemonService{
         }
     }
 
+    // can remove if it works
     @Transactional
     public Pokemon addPokemon(JSONObject jsonObject){
         Pokemon pokemon = new Pokemon();
@@ -128,9 +137,68 @@ public class PokemonServiceImpl implements  PokemonService{
             pokemon.setType2(ParseType((String) jsonObject.get("type2")));
         }
         return pokemonRepo.save(pokemon);
+//        return pokemon;
     }
     public String ParseType(String type){
         String[] typeSplit = type.split("/");
         return typeSplit[typeSplit.length - 1].substring(0, typeSplit[typeSplit.length - 1].length() - 4);
+    }
+
+    @Override
+    @Transactional
+    public void populateMoves() throws ParseException, IOException{
+        FileReader reader = new FileReader("C:\\Users\\tyler\\NewWebsite\\src\\main\\java\\com\\boylegu\\springboot_vue\\service\\pokemon\\moves.json");
+        JSONParser jsonParser = new JSONParser();
+        JSONArray movesList = new JSONArray();
+
+        Object result = jsonParser.parse(reader);
+        movesList.add(result);
+
+        Map<String, Object> user = (Map<String, Object>) result;
+        JSONObject jsonObject = new JSONObject(user);
+        Object obj = jsonObject.get("moves");
+        JSONArray array = (JSONArray)obj;
+        List<Move> moves = new ArrayList<>();
+        for(int index = 0; index < array.size(); ++index ){
+            JSONObject jsonObject1 = (JSONObject) array.get(index);
+            moves.add(addMove(jsonObject1));
+        }
+    }
+
+    //TODO: use builder
+    @Transactional
+    public Move addMove(JSONObject jsonObject){
+        Move move = new Move();
+        try{
+            // all moves except struggle have pp
+            move.setPp(Integer.parseInt((String)jsonObject.get("pp")));
+        }
+        catch(Exception e){
+
+        }
+        // proper
+        try {
+            move.setAccuracy(Integer.parseInt((String) jsonObject.get("accuracy")));
+        }
+        catch(Exception e){
+
+        }
+        try {
+            move.setPower(Integer.parseInt((String) jsonObject.get("power")));
+        }
+        catch(Exception e){
+
+        }
+        move.setCategory((String) jsonObject.get("category"));
+        move.setEffect((String) jsonObject.get("effect"));
+        move.setName((String) jsonObject.get("name"));
+        move.setType((String) jsonObject.get("type"));
+        return moveRepo.save(move);
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public Long getAllMoves(){
+        return moveRepo.count();
     }
 }

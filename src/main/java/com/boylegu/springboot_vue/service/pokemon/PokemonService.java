@@ -1,6 +1,7 @@
 package com.boylegu.springboot_vue.service.pokemon;
 
 import com.boylegu.springboot_vue.dto.PokeBattleDto;
+import com.boylegu.springboot_vue.entities.Move;
 import com.boylegu.springboot_vue.entities.Pokemon;
 import com.boylegu.springboot_vue.entities.PokemonBattle;
 import org.json.simple.parser.ParseException;
@@ -13,5 +14,7 @@ import java.util.UUID;
 public interface PokemonService {
     PokemonBattle createGame(UUID id1, UUID id2) throws ParseException, IOException;
     List<Pokemon> getPokemon(UUID id, UUID pId);
-    PokemonBattle populatePokemon(PokemonBattle pokemonBattle) throws FileNotFoundException, ParseException, IOException;
+    Long getAllMoves();
+    PokemonBattle populatePokemon(PokemonBattle pokemonBattle) throws ParseException, IOException;
+    void populateMoves() throws  ParseException, IOException;
 }

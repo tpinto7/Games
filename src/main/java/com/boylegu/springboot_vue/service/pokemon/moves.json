@@ -1,0 +1,1636 @@
+{
+ "moves": [
+  {
+   "name": "Absorb",
+   "type": "Grass",
+   "type_url": "https://pokemondb.net/type/grass",
+   "category": "https://img.pokemondb.net/images/icons/special.png",
+   "power": "20",
+   "accuracy": "100",
+   "pp": "25",
+   "effect": "User recovers half the HP inflicted on opponent."
+  },
+  {
+   "name": "Acid",
+   "type": "Poison",
+   "type_url": "https://pokemondb.net/type/poison",
+   "category": "https://img.pokemondb.net/images/icons/special.png",
+   "power": "40",
+   "accuracy": "100",
+   "pp": "30",
+   "effect": "May lower opponent's Special Defense."
+  },
+  {
+   "name": "Acid Armor",
+   "type": "Poison",
+   "type_url": "https://pokemondb.net/type/poison",
+   "category": "https://img.pokemondb.net/images/icons/status.png",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "20",
+   "effect": "Sharply raises user's Defense."
+  },
+  {
+   "name": "Agility",
+   "type": "Psychic",
+   "type_url": "https://pokemondb.net/type/psychic",
+   "category": "https://img.pokemondb.net/images/icons/status.png",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "30",
+   "effect": "Sharply raises user's Speed."
+  },
+  {
+   "name": "Amnesia",
+   "type": "Psychic",
+   "type_url": "https://pokemondb.net/type/psychic",
+   "category": "https://img.pokemondb.net/images/icons/status.png",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "20",
+   "effect": "Sharply raises user's Special Defense."
+  },
+  {
+   "name": "Aurora Beam",
+   "type": "Ice",
+   "type_url": "https://pokemondb.net/type/ice",
+   "category": "https://img.pokemondb.net/images/icons/special.png",
+   "power": "65",
+   "accuracy": "100",
+   "pp": "20",
+   "effect": "May lower opponent's Attack."
+  },
+  {
+   "name": "Barrage",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "https://img.pokemondb.net/images/icons/physical.png",
+   "power": "15",
+   "accuracy": "85",
+   "pp": "20",
+   "effect": "Hits 2-5 times in one turn."
+  },
+  {
+   "name": "Barrier",
+   "type": "Psychic",
+   "type_url": "https://pokemondb.net/type/psychic",
+   "category": "https://img.pokemondb.net/images/icons/status.png",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "20",
+   "effect": "Sharply raises user's Defense."
+  },
+  {
+   "name": "Bide",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "https://img.pokemondb.net/images/icons/physical.png",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "10",
+   "effect": "User takes damage for two turns then strikes back double."
+  },
+  {
+   "name": "Bind",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "https://img.pokemondb.net/images/icons/physical.png",
+   "power": "15",
+   "accuracy": "85",
+   "pp": "20",
+   "effect": "Traps opponent, damaging them for 4-5 turns."
+  },
+  {
+   "name": "Bite",
+   "type": "Dark",
+   "type_url": "https://pokemondb.net/type/dark",
+   "category": "https://img.pokemondb.net/images/icons/physical.png",
+   "power": "60",
+   "accuracy": "100",
+   "pp": "25",
+   "effect": "May cause flinching."
+  },
+  {
+   "name": "Blizzard",
+   "type": "Ice",
+   "type_url": "https://pokemondb.net/type/ice",
+   "category": "https://img.pokemondb.net/images/icons/special.png",
+   "power": "110",
+   "accuracy": "70",
+   "pp": "5",
+   "effect": "May freeze opponent."
+  },
+  {
+   "name": "Body Slam",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "https://img.pokemondb.net/images/icons/physical.png",
+   "power": "85",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "May paralyze opponent."
+  },
+  {
+   "name": "Bone Club",
+   "type": "Ground",
+   "type_url": "https://pokemondb.net/type/ground",
+   "category": "https://img.pokemondb.net/images/icons/physical.png",
+   "power": "65",
+   "accuracy": "85",
+   "pp": "20",
+   "effect": "May cause flinching."
+  },
+  {
+   "name": "Bonemerang",
+   "type": "Ground",
+   "type_url": "https://pokemondb.net/type/ground",
+   "category": "https://img.pokemondb.net/images/icons/physical.png",
+   "power": "50",
+   "accuracy": "90",
+   "pp": "10",
+   "effect": "Hits twice in one turn."
+  },
+  {
+   "name": "Bubble",
+   "type": "Water",
+   "type_url": "https://pokemondb.net/type/water",
+   "category": "https://img.pokemondb.net/images/icons/special.png",
+   "power": "40",
+   "accuracy": "100",
+   "pp": "30",
+   "effect": "May lower opponent's Speed."
+  },
+  {
+   "name": "Bubble Beam",
+   "type": "Water",
+   "type_url": "https://pokemondb.net/type/water",
+   "category": "https://img.pokemondb.net/images/icons/special.png",
+   "power": "65",
+   "accuracy": "100",
+   "pp": "20",
+   "effect": "May lower opponent's Speed."
+  },
+  {
+   "name": "Clamp",
+   "type": "Water",
+   "type_url": "https://pokemondb.net/type/water",
+   "category": "https://img.pokemondb.net/images/icons/physical.png",
+   "power": "35",
+   "accuracy": "85",
+   "pp": "10",
+   "effect": "Traps opponent, damaging them for 4-5 turns."
+  },
+  {
+   "name": "Comet Punch",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "https://img.pokemondb.net/images/icons/physical.png",
+   "power": "18",
+   "accuracy": "85",
+   "pp": "15",
+   "effect": "Hits 2-5 times in one turn."
+  },
+  {
+   "name": "Confuse Ray",
+   "type": "Ghost",
+   "type_url": "https://pokemondb.net/type/ghost",
+   "category": "https://img.pokemondb.net/images/icons/status.png",
+   "power": "—",
+   "accuracy": "100",
+   "pp": "10",
+   "effect": "Confuses opponent."
+  },
+  {
+   "name": "Confusion",
+   "type": "Psychic",
+   "type_url": "https://pokemondb.net/type/psychic",
+   "category": "https://img.pokemondb.net/images/icons/special.png",
+   "power": "50",
+   "accuracy": "100",
+   "pp": "25",
+   "effect": "May confuse opponent."
+  },
+  {
+   "name": "Constrict",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "https://img.pokemondb.net/images/icons/physical.png",
+   "power": "10",
+   "accuracy": "100",
+   "pp": "35",
+   "effect": "May lower opponent's Speed by one stage."
+  },
+  {
+   "name": "Conversion",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "https://img.pokemondb.net/images/icons/status.png",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "30",
+   "effect": "Changes user's type to that of its first move."
+  },
+  {
+   "name": "Counter",
+   "type": "Fighting",
+   "type_url": "https://pokemondb.net/type/fighting",
+   "category": "https://img.pokemondb.net/images/icons/physical.png",
+   "power": "—",
+   "accuracy": "100",
+   "pp": "20",
+   "effect": "When hit by a Physical Attack, user strikes back with 2x power."
+  },
+  {
+   "name": "Crabhammer",
+   "type": "Water",
+   "type_url": "https://pokemondb.net/type/water",
+   "category": "https://img.pokemondb.net/images/icons/physical.png",
+   "power": "100",
+   "accuracy": "90",
+   "pp": "10",
+   "effect": "High critical hit ratio."
+  },
+  {
+   "name": "Cut",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "https://img.pokemondb.net/images/icons/physical.png",
+   "power": "50",
+   "accuracy": "95",
+   "pp": "30"
+  },
+  {
+   "name": "Defense Curl",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "https://img.pokemondb.net/images/icons/status.png",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "40",
+   "effect": "Raises user's Defense."
+  },
+  {
+   "name": "Dig",
+   "type": "Ground",
+   "type_url": "https://pokemondb.net/type/ground",
+   "category": "https://img.pokemondb.net/images/icons/physical.png",
+   "power": "80",
+   "accuracy": "100",
+   "pp": "10",
+   "effect": "Digs underground on first turn, attacks on second. Can also escape from caves."
+  },
+  {
+   "name": "Disable",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "https://img.pokemondb.net/images/icons/status.png",
+   "power": "—",
+   "accuracy": "100",
+   "pp": "20",
+   "effect": "Opponent can't use its last attack for a few turns."
+  },
+  {
+   "name": "Dizzy Punch",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "70",
+   "accuracy": "100",
+   "pp": "10",
+   "effect": "May confuse opponent."
+  },
+  {
+   "name": "Double Kick",
+   "type": "Fighting",
+   "type_url": "https://pokemondb.net/type/fighting",
+   "category": "",
+   "power": "30",
+   "accuracy": "100",
+   "pp": "30",
+   "effect": "Hits twice in one turn."
+  },
+  {
+   "name": "Double Slap",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "15",
+   "accuracy": "85",
+   "pp": "10",
+   "effect": "Hits 2-5 times in one turn."
+  },
+  {
+   "name": "Double Team",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "15",
+   "effect": "Raises user's Evasiveness."
+  },
+  {
+   "name": "Double-Edge",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "120",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "User receives recoil damage."
+  },
+  {
+   "name": "Dragon Rage",
+   "type": "Dragon",
+   "type_url": "https://pokemondb.net/type/dragon",
+   "category": "",
+   "power": "—",
+   "accuracy": "100",
+   "pp": "10",
+   "effect": "Always inflicts 40 HP."
+  },
+  {
+   "name": "Dream Eater",
+   "type": "Psychic",
+   "type_url": "https://pokemondb.net/type/psychic",
+   "category": "",
+   "power": "100",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "User recovers half the HP inflicted on a sleeping opponent."
+  },
+  {
+   "name": "Drill Peck",
+   "type": "Flying",
+   "type_url": "https://pokemondb.net/type/flying",
+   "category": "",
+   "power": "80",
+   "accuracy": "100",
+   "pp": "20"
+  },
+  {
+   "name": "Earthquake",
+   "type": "Ground",
+   "type_url": "https://pokemondb.net/type/ground",
+   "category": "",
+   "power": "100",
+   "accuracy": "100",
+   "pp": "10",
+   "effect": "Power is doubled if opponent is underground from using Dig."
+  },
+  {
+   "name": "Egg Bomb",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "100",
+   "accuracy": "75",
+   "pp": "10"
+  },
+  {
+   "name": "Ember",
+   "type": "Fire",
+   "type_url": "https://pokemondb.net/type/fire",
+   "category": "",
+   "power": "40",
+   "accuracy": "100",
+   "pp": "25",
+   "effect": "May burn opponent."
+  },
+  {
+   "name": "Explosion",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "250",
+   "accuracy": "100",
+   "pp": "5",
+   "effect": "User faints."
+  },
+  {
+   "name": "Fire Blast",
+   "type": "Fire",
+   "type_url": "https://pokemondb.net/type/fire",
+   "category": "",
+   "power": "110",
+   "accuracy": "85",
+   "pp": "5",
+   "effect": "May burn opponent."
+  },
+  {
+   "name": "Fire Punch",
+   "type": "Fire",
+   "type_url": "https://pokemondb.net/type/fire",
+   "category": "",
+   "power": "75",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "May burn opponent."
+  },
+  {
+   "name": "Fire Spin",
+   "type": "Fire",
+   "type_url": "https://pokemondb.net/type/fire",
+   "category": "",
+   "power": "35",
+   "accuracy": "85",
+   "pp": "15",
+   "effect": "Traps opponent, damaging them for 4-5 turns."
+  },
+  {
+   "name": "Fissure",
+   "type": "Ground",
+   "type_url": "https://pokemondb.net/type/ground",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "5",
+   "effect": "One-Hit-KO, if it hits."
+  },
+  {
+   "name": "Flamethrower",
+   "type": "Fire",
+   "type_url": "https://pokemondb.net/type/fire",
+   "category": "",
+   "power": "90",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "May burn opponent."
+  },
+  {
+   "name": "Flash",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "100",
+   "pp": "20",
+   "effect": "Lowers opponent's Accuracy."
+  },
+  {
+   "name": "Fly",
+   "type": "Flying",
+   "type_url": "https://pokemondb.net/type/flying",
+   "category": "",
+   "power": "90",
+   "accuracy": "95",
+   "pp": "15",
+   "effect": "Flies up on first turn, attacks on second turn."
+  },
+  {
+   "name": "Focus Energy",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "30",
+   "effect": "Increases critical hit ratio."
+  },
+  {
+   "name": "Fury Attack",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "15",
+   "accuracy": "85",
+   "pp": "20",
+   "effect": "Hits 2-5 times in one turn."
+  },
+  {
+   "name": "Fury Swipes",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "18",
+   "accuracy": "80",
+   "pp": "15",
+   "effect": "Hits 2-5 times in one turn."
+  },
+  {
+   "name": "Glare",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "100",
+   "pp": "30",
+   "effect": "Paralyzes opponent."
+  },
+  {
+   "name": "Growl",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "100",
+   "pp": "40",
+   "effect": "Lowers opponent's Attack."
+  },
+  {
+   "name": "Growth",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "40",
+   "effect": "Raises user's Attack and Special Attack."
+  },
+  {
+   "name": "Guillotine",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "5",
+   "effect": "One-Hit-KO, if it hits."
+  },
+  {
+   "name": "Gust",
+   "type": "Flying",
+   "type_url": "https://pokemondb.net/type/flying",
+   "category": "",
+   "power": "40",
+   "accuracy": "100",
+   "pp": "35",
+   "effect": "Hits Pokémon using Fly/Bounce with double power."
+  },
+  {
+   "name": "Harden",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "30",
+   "effect": "Raises user's Defense."
+  },
+  {
+   "name": "Haze",
+   "type": "Ice",
+   "type_url": "https://pokemondb.net/type/ice",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "30",
+   "effect": "Resets all stat changes."
+  },
+  {
+   "name": "Headbutt",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "70",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "May cause flinching."
+  },
+  {
+   "name": "High Jump Kick",
+   "type": "Fighting",
+   "type_url": "https://pokemondb.net/type/fighting",
+   "category": "",
+   "power": "130",
+   "accuracy": "90",
+   "pp": "10",
+   "effect": "If it misses, the user loses half their HP."
+  },
+  {
+   "name": "Horn Attack",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "65",
+   "accuracy": "100",
+   "pp": "25"
+  },
+  {
+   "name": "Horn Drill",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "5",
+   "effect": "One-Hit-KO, if it hits."
+  },
+  {
+   "name": "Hydro Pump",
+   "type": "Water",
+   "type_url": "https://pokemondb.net/type/water",
+   "category": "",
+   "power": "110",
+   "accuracy": "80",
+   "pp": "5"
+  },
+  {
+   "name": "Hyper Beam",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "150",
+   "accuracy": "90",
+   "pp": "5",
+   "effect": "User must recharge next turn."
+  },
+  {
+   "name": "Hyper Fang",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "80",
+   "accuracy": "90",
+   "pp": "15",
+   "effect": "May cause flinching."
+  },
+  {
+   "name": "Hypnosis",
+   "type": "Psychic",
+   "type_url": "https://pokemondb.net/type/psychic",
+   "category": "",
+   "power": "—",
+   "accuracy": "60",
+   "pp": "20",
+   "effect": "Puts opponent to sleep."
+  },
+  {
+   "name": "Ice Beam",
+   "type": "Ice",
+   "type_url": "https://pokemondb.net/type/ice",
+   "category": "",
+   "power": "90",
+   "accuracy": "100",
+   "pp": "10",
+   "effect": "May freeze opponent."
+  },
+  {
+   "name": "Ice Punch",
+   "type": "Ice",
+   "type_url": "https://pokemondb.net/type/ice",
+   "category": "",
+   "power": "75",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "May freeze opponent."
+  },
+  {
+   "name": "Jump Kick",
+   "type": "Fighting",
+   "type_url": "https://pokemondb.net/type/fighting",
+   "category": "",
+   "power": "100",
+   "accuracy": "95",
+   "pp": "10",
+   "effect": "If it misses, the user loses half their HP."
+  },
+  {
+   "name": "Karate Chop",
+   "type": "Fighting",
+   "type_url": "https://pokemondb.net/type/fighting",
+   "category": "",
+   "power": "50",
+   "accuracy": "100",
+   "pp": "25",
+   "effect": "High critical hit ratio."
+  },
+  {
+   "name": "Kinesis",
+   "type": "Psychic",
+   "type_url": "https://pokemondb.net/type/psychic",
+   "category": "",
+   "power": "—",
+   "accuracy": "80",
+   "pp": "15",
+   "effect": "Lowers opponent's Accuracy."
+  },
+  {
+   "name": "Leech Life",
+   "type": "Bug",
+   "type_url": "https://pokemondb.net/type/bug",
+   "category": "",
+   "power": "80",
+   "accuracy": "100",
+   "pp": "10",
+   "effect": "User recovers half the HP inflicted on opponent."
+  },
+  {
+   "name": "Leech Seed",
+   "type": "Grass",
+   "type_url": "https://pokemondb.net/type/grass",
+   "category": "",
+   "power": "—",
+   "accuracy": "90",
+   "pp": "10",
+   "effect": "Drains HP from opponent each turn."
+  },
+  {
+   "name": "Leer",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "100",
+   "pp": "30",
+   "effect": "Lowers opponent's Defense."
+  },
+  {
+   "name": "Lick",
+   "type": "Ghost",
+   "type_url": "https://pokemondb.net/type/ghost",
+   "category": "",
+   "power": "30",
+   "accuracy": "100",
+   "pp": "30",
+   "effect": "May paralyze opponent."
+  },
+  {
+   "name": "Light Screen",
+   "type": "Psychic",
+   "type_url": "https://pokemondb.net/type/psychic",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "30",
+   "effect": "Halves damage from Special attacks for 5 turns."
+  },
+  {
+   "name": "Lovely Kiss",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "75",
+   "pp": "10",
+   "effect": "Puts opponent to sleep."
+  },
+  {
+   "name": "Low Kick",
+   "type": "Fighting",
+   "type_url": "https://pokemondb.net/type/fighting",
+   "category": "",
+   "power": "—",
+   "accuracy": "100",
+   "pp": "20",
+   "effect": "The heavier the opponent, the stronger the attack."
+  },
+  {
+   "name": "Meditate",
+   "type": "Psychic",
+   "type_url": "https://pokemondb.net/type/psychic",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "40",
+   "effect": "Raises user's Attack."
+  },
+  {
+   "name": "Mega Drain",
+   "type": "Grass",
+   "type_url": "https://pokemondb.net/type/grass",
+   "category": "",
+   "power": "40",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "User recovers half the HP inflicted on opponent."
+  },
+  {
+   "name": "Mega Kick",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "120",
+   "accuracy": "75",
+   "pp": "5"
+  },
+  {
+   "name": "Mega Punch",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "80",
+   "accuracy": "85",
+   "pp": "20"
+  },
+  {
+   "name": "Metronome",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "10",
+   "effect": "User performs almost any move in the game at random."
+  },
+  {
+   "name": "Mimic",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "10",
+   "effect": "Copies the opponent's last move."
+  },
+  {
+   "name": "Minimize",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "10",
+   "effect": "Sharply raises user's Evasiveness."
+  },
+  {
+   "name": "Mirror Move",
+   "type": "Flying",
+   "type_url": "https://pokemondb.net/type/flying",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "20",
+   "effect": "User performs the opponent's last move."
+  },
+  {
+   "name": "Mist",
+   "type": "Ice",
+   "type_url": "https://pokemondb.net/type/ice",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "30",
+   "effect": "User's stats cannot be changed for a period of time."
+  },
+  {
+   "name": "Night Shade",
+   "type": "Ghost",
+   "type_url": "https://pokemondb.net/type/ghost",
+   "category": "",
+   "power": "—",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "Inflicts damage equal to user's level."
+  },
+  {
+   "name": "Pay Day",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "40",
+   "accuracy": "100",
+   "pp": "20",
+   "effect": "A small amount of money is gained after the battle resolves."
+  },
+  {
+   "name": "Peck",
+   "type": "Flying",
+   "type_url": "https://pokemondb.net/type/flying",
+   "category": "",
+   "power": "35",
+   "accuracy": "100",
+   "pp": "35"
+  },
+  {
+   "name": "Petal Dance",
+   "type": "Grass",
+   "type_url": "https://pokemondb.net/type/grass",
+   "category": "",
+   "power": "120",
+   "accuracy": "100",
+   "pp": "10",
+   "effect": "User attacks for 2-3 turns but then becomes confused."
+  },
+  {
+   "name": "Pin Missile",
+   "type": "Bug",
+   "type_url": "https://pokemondb.net/type/bug",
+   "category": "",
+   "power": "25",
+   "accuracy": "95",
+   "pp": "20",
+   "effect": "Hits 2-5 times in one turn."
+  },
+  {
+   "name": "Poison Gas",
+   "type": "Poison",
+   "type_url": "https://pokemondb.net/type/poison",
+   "category": "",
+   "power": "—",
+   "accuracy": "90",
+   "pp": "40",
+   "effect": "Poisons opponent."
+  },
+  {
+   "name": "Poison Powder",
+   "type": "Poison",
+   "type_url": "https://pokemondb.net/type/poison",
+   "category": "",
+   "power": "—",
+   "accuracy": "75",
+   "pp": "35",
+   "effect": "Poisons opponent."
+  },
+  {
+   "name": "Poison Sting",
+   "type": "Poison",
+   "type_url": "https://pokemondb.net/type/poison",
+   "category": "",
+   "power": "15",
+   "accuracy": "100",
+   "pp": "35",
+   "effect": "May poison the opponent."
+  },
+  {
+   "name": "Pound",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "40",
+   "accuracy": "100",
+   "pp": "35"
+  },
+  {
+   "name": "Psybeam",
+   "type": "Psychic",
+   "type_url": "https://pokemondb.net/type/psychic",
+   "category": "",
+   "power": "65",
+   "accuracy": "100",
+   "pp": "20",
+   "effect": "May confuse opponent."
+  },
+  {
+   "name": "Psychic",
+   "type": "Psychic",
+   "type_url": "https://pokemondb.net/type/psychic",
+   "category": "",
+   "power": "90",
+   "accuracy": "100",
+   "pp": "10",
+   "effect": "May lower opponent's Special Defense."
+  },
+  {
+   "name": "Psywave",
+   "type": "Psychic",
+   "type_url": "https://pokemondb.net/type/psychic",
+   "category": "",
+   "power": "—",
+   "accuracy": "80",
+   "pp": "15",
+   "effect": "Inflicts damage 50-150% of user's level."
+  },
+  {
+   "name": "Quick Attack",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "40",
+   "accuracy": "100",
+   "pp": "30",
+   "effect": "User attacks first."
+  },
+  {
+   "name": "Rage",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "20",
+   "accuracy": "100",
+   "pp": "20",
+   "effect": "Raises user's Attack when hit."
+  },
+  {
+   "name": "Razor Leaf",
+   "type": "Grass",
+   "type_url": "https://pokemondb.net/type/grass",
+   "category": "",
+   "power": "55",
+   "accuracy": "95",
+   "pp": "25",
+   "effect": "High critical hit ratio."
+  },
+  {
+   "name": "Razor Wind",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "80",
+   "accuracy": "100",
+   "pp": "10",
+   "effect": "Charges on first turn, attacks on second. High critical hit ratio."
+  },
+  {
+   "name": "Recover",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "10",
+   "effect": "User recovers half its max HP."
+  },
+  {
+   "name": "Reflect",
+   "type": "Psychic",
+   "type_url": "https://pokemondb.net/type/psychic",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "20",
+   "effect": "Halves damage from Physical attacks for 5 turns."
+  },
+  {
+   "name": "Rest",
+   "type": "Psychic",
+   "type_url": "https://pokemondb.net/type/psychic",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "10",
+   "effect": "User sleeps for 2 turns, but user is fully healed."
+  },
+  {
+   "name": "Roar",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "20",
+   "effect": "In battles, the opponent switches. In the wild, the Pokémon runs."
+  },
+  {
+   "name": "Rock Slide",
+   "type": "Rock",
+   "type_url": "https://pokemondb.net/type/rock",
+   "category": "",
+   "power": "75",
+   "accuracy": "90",
+   "pp": "10",
+   "effect": "May cause flinching."
+  },
+  {
+   "name": "Rock Throw",
+   "type": "Rock",
+   "type_url": "https://pokemondb.net/type/rock",
+   "category": "",
+   "power": "50",
+   "accuracy": "90",
+   "pp": "15"
+  },
+  {
+   "name": "Rolling Kick",
+   "type": "Fighting",
+   "type_url": "https://pokemondb.net/type/fighting",
+   "category": "",
+   "power": "60",
+   "accuracy": "85",
+   "pp": "15",
+   "effect": "May cause flinching."
+  },
+  {
+   "name": "Sand Attack",
+   "type": "Ground",
+   "type_url": "https://pokemondb.net/type/ground",
+   "category": "",
+   "power": "—",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "Lowers opponent's Accuracy."
+  },
+  {
+   "name": "Scratch",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "40",
+   "accuracy": "100",
+   "pp": "35"
+  },
+  {
+   "name": "Screech",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "85",
+   "pp": "40",
+   "effect": "Sharply lowers opponent's Defense."
+  },
+  {
+   "name": "Seismic Toss",
+   "type": "Fighting",
+   "type_url": "https://pokemondb.net/type/fighting",
+   "category": "",
+   "power": "—",
+   "accuracy": "100",
+   "pp": "20",
+   "effect": "Inflicts damage equal to user's level."
+  },
+  {
+   "name": "Self-Destruct",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "200",
+   "accuracy": "100",
+   "pp": "5",
+   "effect": "User faints."
+  },
+  {
+   "name": "Sharpen",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "30",
+   "effect": "Raises user's Attack."
+  },
+  {
+   "name": "Sing",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "55",
+   "pp": "15",
+   "effect": "Puts opponent to sleep."
+  },
+  {
+   "name": "Skull Bash",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "130",
+   "accuracy": "100",
+   "pp": "10",
+   "effect": "Raises Defense on first turn, attacks on second."
+  },
+  {
+   "name": "Sky Attack",
+   "type": "Flying",
+   "type_url": "https://pokemondb.net/type/flying",
+   "category": "",
+   "power": "140",
+   "accuracy": "90",
+   "pp": "5",
+   "effect": "Charges on first turn, attacks on second. May cause flinching."
+  },
+  {
+   "name": "Slam",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "80",
+   "accuracy": "75",
+   "pp": "20"
+  },
+  {
+   "name": "Slash",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "70",
+   "accuracy": "100",
+   "pp": "20",
+   "effect": "High critical hit ratio."
+  },
+  {
+   "name": "Sleep Powder",
+   "type": "Grass",
+   "type_url": "https://pokemondb.net/type/grass",
+   "category": "",
+   "power": "—",
+   "accuracy": "75",
+   "pp": "15",
+   "effect": "Puts opponent to sleep."
+  },
+  {
+   "name": "Sludge",
+   "type": "Poison",
+   "type_url": "https://pokemondb.net/type/poison",
+   "category": "",
+   "power": "65",
+   "accuracy": "100",
+   "pp": "20",
+   "effect": "May poison opponent."
+  },
+  {
+   "name": "Smog",
+   "type": "Poison",
+   "type_url": "https://pokemondb.net/type/poison",
+   "category": "",
+   "power": "30",
+   "accuracy": "70",
+   "pp": "20",
+   "effect": "May poison opponent."
+  },
+  {
+   "name": "Smokescreen",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "100",
+   "pp": "20",
+   "effect": "Lowers opponent's Accuracy."
+  },
+  {
+   "name": "Soft-Boiled",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "10",
+   "effect": "User recovers half its max HP."
+  },
+  {
+   "name": "Solar Beam",
+   "type": "Grass",
+   "type_url": "https://pokemondb.net/type/grass",
+   "category": "",
+   "power": "120",
+   "accuracy": "100",
+   "pp": "10",
+   "effect": "Charges on first turn, attacks on second."
+  },
+  {
+   "name": "Sonic Boom",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "90",
+   "pp": "20",
+   "effect": "Always inflicts 20 HP."
+  },
+  {
+   "name": "Spike Cannon",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "20",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "Hits 2-5 times in one turn."
+  },
+  {
+   "name": "Splash",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "40",
+   "effect": "Doesn't do ANYTHING."
+  },
+  {
+   "name": "Spore",
+   "type": "Grass",
+   "type_url": "https://pokemondb.net/type/grass",
+   "category": "",
+   "power": "—",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "Puts opponent to sleep."
+  },
+  {
+   "name": "Stomp",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "65",
+   "accuracy": "100",
+   "pp": "20",
+   "effect": "May cause flinching."
+  },
+  {
+   "name": "Strength",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "80",
+   "accuracy": "100",
+   "pp": "15"
+  },
+  {
+   "name": "String Shot",
+   "type": "Bug",
+   "type_url": "https://pokemondb.net/type/bug",
+   "category": "",
+   "power": "—",
+   "accuracy": "95",
+   "pp": "40",
+   "effect": "Sharply lowers opponent's Speed."
+  },
+  {
+   "name": "Struggle",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "50",
+   "accuracy": "100",
+   "pp": "—",
+   "effect": "Only usable when all PP are gone. Hurts the user."
+  },
+  {
+   "name": "Stun Spore",
+   "type": "Grass",
+   "type_url": "https://pokemondb.net/type/grass",
+   "category": "",
+   "power": "—",
+   "accuracy": "75",
+   "pp": "30",
+   "effect": "Paralyzes opponent."
+  },
+  {
+   "name": "Submission",
+   "type": "Fighting",
+   "type_url": "https://pokemondb.net/type/fighting",
+   "category": "",
+   "power": "80",
+   "accuracy": "80",
+   "pp": "20",
+   "effect": "User receives recoil damage."
+  },
+  {
+   "name": "Substitute",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "10",
+   "effect": "Uses HP to creates a decoy that takes hits."
+  },
+  {
+   "name": "Super Fang",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "90",
+   "pp": "10",
+   "effect": "Always takes off half of the opponent's HP."
+  },
+  {
+   "name": "Supersonic",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "55",
+   "pp": "20",
+   "effect": "Confuses opponent."
+  },
+  {
+   "name": "Surf",
+   "type": "Water",
+   "type_url": "https://pokemondb.net/type/water",
+   "category": "",
+   "power": "90",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "Hits all adjacent Pokémon."
+  },
+  {
+   "name": "Swift",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "60",
+   "accuracy": "∞",
+   "pp": "20",
+   "effect": "Ignores Accuracy and Evasiveness."
+  },
+  {
+   "name": "Swords Dance",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "20",
+   "effect": "Sharply raises user's Attack."
+  },
+  {
+   "name": "Tackle",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "40",
+   "accuracy": "100",
+   "pp": "35"
+  },
+  {
+   "name": "Tail Whip",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "100",
+   "pp": "30",
+   "effect": "Lowers opponent's Defense."
+  },
+  {
+   "name": "Take Down",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "90",
+   "accuracy": "85",
+   "pp": "20",
+   "effect": "User receives recoil damage."
+  },
+  {
+   "name": "Teleport",
+   "type": "Psychic",
+   "type_url": "https://pokemondb.net/type/psychic",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "20",
+   "effect": "Allows user to flee wild battles; also warps player to last PokéCenter."
+  },
+  {
+   "name": "Thrash",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "120",
+   "accuracy": "100",
+   "pp": "10",
+   "effect": "User attacks for 2-3 turns but then becomes confused."
+  },
+  {
+   "name": "Thunder",
+   "type": "Electric",
+   "type_url": "https://pokemondb.net/type/electric",
+   "category": "",
+   "power": "110",
+   "accuracy": "70",
+   "pp": "10",
+   "effect": "May paralyze opponent."
+  },
+  {
+   "name": "Thunder Punch",
+   "type": "Electric",
+   "type_url": "https://pokemondb.net/type/electric",
+   "category": "",
+   "power": "75",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "May paralyze opponent."
+  },
+  {
+   "name": "Thunder Shock",
+   "type": "Electric",
+   "type_url": "https://pokemondb.net/type/electric",
+   "category": "",
+   "power": "40",
+   "accuracy": "100",
+   "pp": "30",
+   "effect": "May paralyze opponent."
+  },
+  {
+   "name": "Thunder Wave",
+   "type": "Electric",
+   "type_url": "https://pokemondb.net/type/electric",
+   "category": "",
+   "power": "—",
+   "accuracy": "90",
+   "pp": "20",
+   "effect": "Paralyzes opponent."
+  },
+  {
+   "name": "Thunderbolt",
+   "type": "Electric",
+   "type_url": "https://pokemondb.net/type/electric",
+   "category": "",
+   "power": "90",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "May paralyze opponent."
+  },
+  {
+   "name": "Toxic",
+   "type": "Poison",
+   "type_url": "https://pokemondb.net/type/poison",
+   "category": "",
+   "power": "—",
+   "accuracy": "90",
+   "pp": "10",
+   "effect": "Badly poisons opponent."
+  },
+  {
+   "name": "Transform",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "10",
+   "effect": "User takes on the form and attacks of the opponent."
+  },
+  {
+   "name": "Tri Attack",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "80",
+   "accuracy": "100",
+   "pp": "10",
+   "effect": "May paralyze, burn or freeze opponent."
+  },
+  {
+   "name": "Twineedle",
+   "type": "Bug",
+   "type_url": "https://pokemondb.net/type/bug",
+   "category": "",
+   "power": "25",
+   "accuracy": "100",
+   "pp": "20",
+   "effect": "Hits twice in one turn. May poison opponent."
+  },
+  {
+   "name": "Vine Whip",
+   "type": "Grass",
+   "type_url": "https://pokemondb.net/type/grass",
+   "category": "",
+   "power": "45",
+   "accuracy": "100",
+   "pp": "25"
+  },
+  {
+   "name": "Vise Grip",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "55",
+   "accuracy": "100",
+   "pp": "30"
+  },
+  {
+   "name": "Water Gun",
+   "type": "Water",
+   "type_url": "https://pokemondb.net/type/water",
+   "category": "",
+   "power": "40",
+   "accuracy": "100",
+   "pp": "25"
+  },
+  {
+   "name": "Waterfall",
+   "type": "Water",
+   "type_url": "https://pokemondb.net/type/water",
+   "category": "",
+   "power": "80",
+   "accuracy": "100",
+   "pp": "15",
+   "effect": "May cause flinching."
+  },
+  {
+   "name": "Whirlwind",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "20",
+   "effect": "In battles, the opponent switches. In the wild, the Pokémon runs."
+  },
+  {
+   "name": "Wing Attack",
+   "type": "Flying",
+   "type_url": "https://pokemondb.net/type/flying",
+   "category": "",
+   "power": "60",
+   "accuracy": "100",
+   "pp": "35"
+  },
+  {
+   "name": "Withdraw",
+   "type": "Water",
+   "type_url": "https://pokemondb.net/type/water",
+   "category": "",
+   "power": "—",
+   "accuracy": "—",
+   "pp": "40",
+   "effect": "Raises user's Defense."
+  },
+  {
+   "name": "Wrap",
+   "type": "Normal",
+   "type_url": "https://pokemondb.net/type/normal",
+   "category": "",
+   "power": "15",
+   "accuracy": "90",
+   "pp": "20",
+   "effect": "Traps opponent, damaging them for 4-5 turns."
+  }
+ ]
+}

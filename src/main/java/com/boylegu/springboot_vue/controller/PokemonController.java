@@ -3,6 +3,7 @@ package com.boylegu.springboot_vue.controller;
 import com.boylegu.springboot_vue.controller.dto.request.UserCreateDto;
 import com.boylegu.springboot_vue.dto.PokeBattleDto;
 import com.boylegu.springboot_vue.dto.UserDto;
+import com.boylegu.springboot_vue.entities.Move;
 import com.boylegu.springboot_vue.entities.Pokemon;
 import com.boylegu.springboot_vue.entities.PokemonBattle;
 import com.boylegu.springboot_vue.service.pokemon.PokemonService;
@@ -32,6 +33,11 @@ public class PokemonController {
     @GetMapping(value = "/getPokemon", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<List<Pokemon>> populatePokemon(@RequestParam("pId") UUID p1Id, @RequestParam("id") UUID id){
         return ResponseEntity.ok(pokemonService.getPokemon(id, p1Id));
+    }
+
+    @GetMapping(value = "/getAllMoves", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public ResponseEntity<Long> populatePokemon(){
+        return ResponseEntity.ok(pokemonService.getAllMoves());
     }
 
 //    @GetMapping(value = "/populatePokemon", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
