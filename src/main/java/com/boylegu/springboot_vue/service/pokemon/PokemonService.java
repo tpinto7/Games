@@ -12,9 +12,11 @@ import java.util.List;
 import java.util.UUID;
 
 public interface PokemonService {
-    PokemonBattle createGame(UUID id1, UUID id2) throws ParseException, IOException;
+    PokemonBattle createGame(String id1, String id2) throws ParseException, IOException;
     List<Pokemon> getPokemon(UUID id, UUID pId);
-    Long getAllMoves();
+    List<Pokemon> getPokemon(String id1, String id2);
+    List<Move> getAllMoves();
     PokemonBattle populatePokemon(PokemonBattle pokemonBattle) throws ParseException, IOException;
     void populateMoves() throws  ParseException, IOException;
+    String executeMove(String id1, String id2, int moveIndex);
 }

@@ -21,7 +21,7 @@ import javax.persistence.Table;
 @EqualsAndHashCode
 @ToString
 @Entity
-@Table(name = "UserPassword")
+@Table(name = "user_password")
 public class UserPassword {
     private static final String COLUMN_NAME_PASSWORD = "password";
     private static final String COLUMN_NAME_SALT = "salt";

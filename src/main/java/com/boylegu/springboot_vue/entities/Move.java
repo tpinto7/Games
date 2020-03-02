@@ -13,7 +13,7 @@ import java.util.UUID;
 @EqualsAndHashCode
 @ToString
 @Entity
-@Table(name = "Pokemon")
+@Table(name = "move")
 public class Move {
     private static final String COLUMN_NAME_NAME = "name";
     private static final String COLUMN_NAME_TYPE = "type";

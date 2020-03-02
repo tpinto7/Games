@@ -14,6 +14,7 @@ import java.util.UUID;
 public interface UserService {
     UserListResponseDto getUserList() throws Exception;
     UserDto getUserById(UUID id) throws Exception;
+    UserDto getUserByEmailAddress(String id) throws Exception;
     List<UserPantry> getUserPantry(UUID id) throws Exception;
     UserDto createUser(UserCreateDto userCreateDto);
     void addToPantry(UUID userId, int sku, int value, String unit, String name);

@@ -10,5 +10,6 @@ import java.util.UUID;
 public interface PokemonBattleRepo extends JpaRepository<PokemonBattle, UUID> {
     PokemonBattle save(PokemonBattle pokemonBattle);
     Optional<PokemonBattle> findOneById(UUID id);
+    Optional<PokemonBattle> findOneByUserEmailAddressAndUser2EmailAddress(String e1, String e2);
 //    Optional<User> findOneByEmailAddress(String username);
 }

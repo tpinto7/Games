@@ -7,6 +7,7 @@ import lombok.ToString;
 import org.hibernate.validator.constraints.NotBlank;
 
 import javax.persistence.*;
+import java.util.List;
 import java.util.UUID;
 
 @Getter
@@ -14,7 +15,7 @@ import java.util.UUID;
 @EqualsAndHashCode
 @ToString
 @Entity
-@Table(name = "Pokemon")
+@Table(name = "pokemon")
 public class Pokemon {
     private static final String COLUMN_NAME_INDEX = "number";
     private static final String COLUMN_NAME_NAME = "name";
@@ -27,7 +28,10 @@ public class Pokemon {
     private static final String COLUMN_NAME_IMAGE = "image";
     private static final String COLUMN_NAME_TYPE = "type";
     private static final String COLUMN_NAME_TYPE2 = "type2";
-
+    private static final String COLUMN_NAME_MOVE1 = "move1";
+    private static final String COLUMN_NAME_MOVE2 = "move2";
+    private static final String COLUMN_NAME_MOVE3 = "move3";
+    private static final String COLUMN_NAME_MOVE4 = "move4";
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
@@ -64,4 +68,9 @@ public class Pokemon {
 
     @Column(name = COLUMN_NAME_TYPE2)
     private String type2;
+
+//    // TODO: cause of the error? it is cuz no table is created here
+    @ElementCollection
+    List<Move> moves;
+
 }

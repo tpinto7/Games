@@ -17,7 +17,7 @@ import java.util.UUID;
 @EqualsAndHashCode
 @ToString
 @Entity
-@Table(name = "User")
+@Table(name = "user")
 public class User {
     private static final String COLUMN_NAME_USERNAME = "username";
     private static final String COLUMN_NAME_FIRST_NAME = "first_name";

@@ -34,8 +34,8 @@ public class MainController {
     }
 
     @GetMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public ResponseEntity<UserDto> findUserById(@NotNull @PathVariable("id") UUID id) throws Exception {
-        return ResponseEntity.ok(userService.getUserById(id));
+    public ResponseEntity<UserDto> findUserById(@NotNull @PathVariable("id") String id) throws Exception {
+        return ResponseEntity.ok(userService.getUserByEmailAddress(id));
     }
 
     @GetMapping(value = "/{id}/pantry", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)

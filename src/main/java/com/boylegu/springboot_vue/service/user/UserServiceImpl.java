@@ -50,12 +50,12 @@ public class UserServiceImpl implements  UserService {
     }
 
     @Override
-    public UserDto getUserById(UUID userId) throws Exception {
+    public UserDto getUserByEmailAddress(String userId) throws Exception {
         if (Objects.isNull(userId)) {
             throw new IllegalArgumentException("id cannot be empty/null");
         }
-        final Optional<User> userOptional = userRepo.findOneById(userId);
 
+        final Optional<User> userOptional = userRepo.findOneByEmailAddress(userId);
         if (userOptional.isPresent()) {
             User user = userOptional.get();
             return new UserDto(user.getId(), user.getUsername(), user.getFirstName(), user.getLastName(), user.getEmailAddress());
@@ -64,6 +64,21 @@ public class UserServiceImpl implements  UserService {
     }
 
     @Override
+    public UserDto getUserById(UUID userId) throws Exception {
+        if (Objects.isNull(userId)) {
+            throw new IllegalArgumentException("id cannot be empty/null");
+        }
+
+        final Optional<User> userOptional = userRepo.findOneById(userId);
+        if (userOptional.isPresent()) {
+            User user = userOptional.get();
+            return new UserDto(user.getId(), user.getUsername(), user.getFirstName(), user.getLastName(), user.getEmailAddress());
+        }
+        throw new Exception("User with id: " + userId + "does not exist.");
+    }
+
+    @Override
+    @Transactional
     public UserDto createUser(UserCreateDto userCreateDto) {
         User user = new User();
         user.setEmailAddress(userCreateDto.getEmailAddress());

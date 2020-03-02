@@ -14,7 +14,7 @@ import java.util.UUID;
 @EqualsAndHashCode
 @ToString
 @Entity
-@Table(name = "Battle")
+@Table(name = "battle")
 public class PokemonBattle {
     private static final String COLUMN_NAME_USER = "user";
     private static final String COLUMN_NAME_USER_2 = "user_2";

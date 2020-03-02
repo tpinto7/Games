@@ -26,6 +26,11 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.19</version>
+		</dependency>
+		<dependency>
 			<groupId>com.integralblue</groupId>
 			<artifactId>log4jdbc-spring-boot-starter</artifactId>
 			<version>1.0.2</version>
@@ -47,11 +52,11 @@
 			<version>1.18.12</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.xerial</groupId>
-			<artifactId>sqlite-jdbc</artifactId>
-			<version>3.7.2</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.xerial</groupId>-->
+<!--			<artifactId>sqlite-jdbc</artifactId>-->
+<!--			<version>3.7.2</version>-->
+<!--		</dependency>-->
 		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -87,11 +92,11 @@
 			<artifactId>spring-boot-starter-aop</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>5.0.12.Final</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.hibernate</groupId>-->
+<!--			<artifactId>hibernate-core</artifactId>-->
+<!--			<version>5.0.12.Final</version>-->
+<!--		</dependency>-->
 	</dependencies>
 
 	<build>

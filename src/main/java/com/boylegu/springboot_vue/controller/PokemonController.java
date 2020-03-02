@@ -26,18 +26,25 @@ public class PokemonController {
     PokemonService pokemonService;
 
     @PostMapping(value = "/startGame", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public ResponseEntity<PokemonBattle> createGame(@RequestParam("p1") UUID id1, @RequestParam("p2") UUID id2) throws ParseException, IOException {
+    public ResponseEntity<PokemonBattle> createGame(@RequestParam("p1") String id1, @RequestParam("p2") String id2) throws ParseException, IOException {
         return ResponseEntity.ok(pokemonService.createGame(id1, id2));
     }
 
     @GetMapping(value = "/getPokemon", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public ResponseEntity<List<Pokemon>> populatePokemon(@RequestParam("pId") UUID p1Id, @RequestParam("id") UUID id){
+    public ResponseEntity<List<Pokemon>> populatePokemon(@RequestParam("pId") String p1Id, @RequestParam("id") String id){
         return ResponseEntity.ok(pokemonService.getPokemon(id, p1Id));
     }
 
     @GetMapping(value = "/getAllMoves", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public ResponseEntity<Long> populatePokemon(){
+    public ResponseEntity<List<Move>> populatePokemon(){
         return ResponseEntity.ok(pokemonService.getAllMoves());
+    }
+
+    @PostMapping(value = "/executeMove", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    // TODO: temporary fix for id not working
+    // TODO: make payload
+    public ResponseEntity<String> executeMove(@RequestParam("p1") String id1, @RequestParam("p2") String id2, @RequestParam("move") int move){
+        return ResponseEntity.ok(pokemonService.executeMove(id1, id2, move));
     }
 
 //    @GetMapping(value = "/populatePokemon", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)

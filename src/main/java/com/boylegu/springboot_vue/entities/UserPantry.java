@@ -13,7 +13,7 @@ import java.util.UUID;
 @EqualsAndHashCode
 @ToString
 @Entity
-@Table(name = "UserPantry")
+@Table(name = "user_pantry")
 public class UserPantry {
     private static final String COLUMN_NAME_USER = "local_user_id";
     private static final String COLUMN_NAME_SKU = "sku";
